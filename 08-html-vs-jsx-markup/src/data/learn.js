@@ -1,8 +1,8 @@
-export const imageType = 'react';
+export const imageType = 'react'; // 'react' | 'vite' | 'next.js' | 'kakao talk'
 
-export const isShowReactImage = true;
+export const isShowReactImage = !true; // FALSE
 
-export const statusMessage = [
+export const statusMessages = [
   '⌛️ 대기',
   '⏳ 로딩 중...',
   '✅ 로딩 성공!',
